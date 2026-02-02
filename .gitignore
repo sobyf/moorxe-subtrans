@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Secrets & Config
+.env
+.flaskenv
+
+# Project specific
+*.srt
+*.json
+!app/  # مطمئن شو که پوشه اصلی کد نادیده گرفته نمی‌شود
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS
+.DS_Store
